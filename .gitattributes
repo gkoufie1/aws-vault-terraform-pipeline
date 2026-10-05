@@ -1,0 +1,3 @@
+# LF everywhere: vault-install.sh runs as EC2 user-data, and a CRLF copy
+# fails on the first line with ": command not found".
+* text=auto eol=lf

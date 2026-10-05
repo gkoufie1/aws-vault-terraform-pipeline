@@ -1,0 +1,2 @@
+my_ip         = "YOUR_PUBLIC_IP/32" # check with: curl -s ifconfig.me
+key_pair_name = "your-ec2-keypair-name"

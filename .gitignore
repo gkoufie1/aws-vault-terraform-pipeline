@@ -1,0 +1,30 @@
+# Terraform
+**/.terraform/
+*.tfplan
+tfplan
+tfplan*
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+*.auto.tfvars
+
+# Vault — unseal keys and root token never touch the repo or the chat
+.vault-unseal-keys
+.vault-root-token
+*.unseal
+
+# Keys
+*.pem
+id_*
+!*.pub
+
+# Go
+/bin/
+*.exe
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
